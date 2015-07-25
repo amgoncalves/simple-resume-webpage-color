@@ -1,0 +1,158 @@
+/* GENERAL STYLING */
+
+body {
+	font-family: sans-serif;
+	background-color: #DFDFDF;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	color: #B8E6E5;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	background-color: #41817F;
+	color: #B8E6E5;
+	padding: 5px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+h4 {
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+/* DIVS */
+
+#page {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #5D5D5D;
+}
+
+#header {
+	width: 900px;
+	padding: 10px 0 10px 0;
+	margin: 0 auto;
+	background-color: #41817F;
+}
+
+#sidebar {
+	width: 200px;
+	text-align: left;
+	color: white;
+	float: left;
+	padding: 0 20px 0 20px;
+}
+
+#content {
+	width: 630px;
+	float: right;
+	background-color: #F1F1F1;
+	padding: 10px;
+}
+
+#footer {
+	width: 880px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #41817F;
+	color: white;
+	clear: both;
+	font-size: 12px;
+}
+
+#links {
+	width: 100px;
+	float: right;
+	text-align: right;
+}
+
+#portrait {
+	width: 220px;
+	float: right;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: white;
+}
+
+.project {
+	margin: 20px 0 20px 0;
+	display: block;
+}
+
+.project h4 {
+	clear: both;
+}
+
+.project_pic {
+	width: 220px;
+	float: right;
+	margin-left: 10px;
+	padding: 10px;
+	background-color: white;
+}
+
+/* NAVIGATION */
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	list-style: none;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.active {
+	background-color: gray;
+}
+
+
+/* LINKS */
+
+a:link,
+a:active,
+a:visited {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid #FFEC9B;
+}
+
+a:hover {
+	color: #FFEC9B;
+}
+
+#content a {
+	color: #3C3C3C;
+}
+
+#content a:hover {
+	color: #FFEC9B;
+}
+
+#content ul {
+	list-style-type: circle;
+	margin-left: 20px;
+}
